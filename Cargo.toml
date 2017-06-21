@@ -1,0 +1,10 @@
+[package]
+name = "rust-piano"
+version = "0.1.0"
+authors = ["Pablo Terradillos <tehsis@gmail.com>"]
+
+[dependencies]
+serial = "0.3"
+portmidi = "^0.2"
+[dependencies.rimd]
+git = "https://github.com/nicklan/rimd.git"
